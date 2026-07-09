@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* Brand & Copyright */}
         <p>
-          &copy; {new Date().getFullYear()}{' '}
+           {new Date().getFullYear()}{' '}
           <Link to="/" className="text-slate-400 font-bold hover:text-orange-500 transition">
             Zindua Market
           </Link>
