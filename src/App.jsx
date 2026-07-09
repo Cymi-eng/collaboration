@@ -1,3 +1,5 @@
+import Login from "./pages/Login"
+import Register from "./pages/register"
 
 
 function App() {
@@ -5,7 +7,8 @@ function App() {
 
   return (
     <>
-      <h1>welcome to React Collaboration</h1>
+    <Login />  
+      <Register/>
     </>
   )
 }
