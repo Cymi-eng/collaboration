@@ -3,12 +3,13 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-      <h2>Contact Us</h2>
-      <p>collaboration@gmail.com</p>
-      <p>0757732215</p>
-      <p>Nairobi, Kenya</p>
+      <h1>Contact Us</h1>
+      <form action="submit">
+        <label htmlFor="email">Email:</label>
+        <input type="text" />
+      </form>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
